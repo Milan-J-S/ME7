@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="m.me.Achieve">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView14"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/cet"
+        android:layout_marginTop="10dp"
+        android:contentDescription=""
+        android:layout_marginLeft="-5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Obtained Rank of 203 in K-CET"
+        android:id="@+id/textView30"
+        android:layout_alignTop="@+id/imageView14"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="30dp"
+        android:layout_toEndOf="@+id/imageView14"
+        android:layout_toRightOf="@+id/imageView14"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-10dp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageView15"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/exam"
+        android:layout_below="@+id/textView30"
+        android:layout_alignRight="@+id/imageView14"
+        android:layout_alignEnd="@+id/imageView14"
+        android:layout_marginLeft="-5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Obtained 97 % in PCME in 2nd PU Board Exam"
+        android:id="@+id/textView31"
+        android:textSize="30dp"
+        android:layout_alignTop="@+id/imageView15"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/textView30"
+        android:layout_alignStart="@+id/textView30"
+        android:layout_marginTop="-10dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView16"
+        android:layout_below="@+id/textView31"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="72dp"
+        android:src="@drawable/tennis"
+        android:layout_marginLeft="-5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Represented College in Regional Level Tennis Tournament"
+        android:id="@+id/textView32"
+        android:layout_alignTop="@+id/imageView16"
+        android:layout_alignLeft="@+id/textView31"
+        android:layout_alignStart="@+id/textView31"
+        android:textSize="30dp"
+        android:layout_marginTop="-20dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView22"
+        android:src="@drawable/right"
+        android:onClick="onDreamTap"
+        android:translationZ="2px"
+        android:elevation="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView32"
+        android:layout_alignEnd="@+id/textView32" />
+</RelativeLayout>

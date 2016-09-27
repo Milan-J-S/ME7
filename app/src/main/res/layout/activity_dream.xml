@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Dream Project would be to create a smart JARVIS like interface which uses Artificial Intelligence and Machine Learning to help the user."
+        android:id="@+id/textView36"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="The app would prompt the user to leave for work if he/she were getting late, Remind them they have a meeting to attend in the morning, so they better cancel their plans to party late at night, and use the data to provide more useful suggestions to the user."
+        android:id="@+id/textView37"
+        android:layout_below="@+id/textView36"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="The app would also connect to other appliances and devices, thus switching on and cooling the car at the time the user is known to leave for work, or heating the water at the time of the day depending on the calendar of the user."
+        android:id="@+id/textView38"
+        android:layout_below="@+id/textView37"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="80dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView17"
+        android:src="@drawable/clock"
+        android:layout_below="@+id/textView36"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView18"
+        android:src="@drawable/cal"
+        android:layout_alignTop="@+id/imageView17"
+        android:layout_toRightOf="@+id/imageView17"
+        android:layout_toEndOf="@+id/imageView17"
+        android:layout_marginLeft="10dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView19"
+        android:src="@drawable/alarm"
+        android:layout_alignTop="@+id/imageView18"
+        android:layout_toRightOf="@+id/imageView18"
+        android:layout_toEndOf="@+id/imageView18"
+        android:layout_marginLeft="10dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView20"
+        android:layout_below="@+id/textView37"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/car"
+        android:layout_marginTop="30dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView21"
+        android:layout_below="@+id/textView37"
+        android:layout_toRightOf="@+id/imageView20"
+        android:layout_toEndOf="@+id/imageView20"
+        android:src="@drawable/heat"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp" />
+
+
+</RelativeLayout>
+    </ScrollView>
